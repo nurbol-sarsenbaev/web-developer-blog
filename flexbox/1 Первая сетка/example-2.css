@@ -1,0 +1,35 @@
+
+.top, .grid {
+    width: 100%;
+    max-width: 960px;
+    min-height: 100px;
+    min-width: 460px;
+}
+
+.top {
+    margin: 0 auto 40px;
+    background: black;
+}
+
+.grid {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #fff;
+    flex: 1 1 calc(33.33% - 10px);
+    margin: 0 10px 10px 0;
+    font-size: 40px;
+    min-height: 200px;
+}
+
+.grid-item:nth-child(3n) {
+    margin-right: 0;
+}
+

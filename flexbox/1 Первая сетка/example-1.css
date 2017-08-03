@@ -1,0 +1,38 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.block-1, .block-item {
+    color: #fff;
+    font-size: 40px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-1 {
+    flex: auto;
+    min-height: 430px;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    flex: 0 1 220px;
+}
+
+.block-item {
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
+.block-item:last-child {
+    margin-bottom: 0;
+}
